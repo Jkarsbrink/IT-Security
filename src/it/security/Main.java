@@ -14,11 +14,6 @@ import java.util.Scanner;
 
 public class Main {
 
-
-
-
-
-
     public static void encryptDecrypt(String key, int cipherMode, File in, File out)
             throws InvalidKeyException, NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException,InvalidAlgorithmParameterException, IOException {
         FileInputStream s = new FileInputStream(in);

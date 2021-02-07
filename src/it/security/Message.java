@@ -60,6 +60,7 @@ public class Message {
     private void generateKeys(String fileName) {
         generateKeys(fileName, 2048);
     }
+
     private void saveKey(String fileName, KeyPair key){
         try{
             FileOutputStream fileOut = new FileOutputStream(fileName);
